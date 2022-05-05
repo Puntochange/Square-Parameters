@@ -2,9 +2,13 @@
    "name": "project",
    "version": "1.0.0",
    "description": "",
+   "homepage": "https://github.com/Puntochange/Square-Parameters/",
    "main": "script.js",
    "scripts": {
-      "start": "parcel ./src/index.html"
+      "start": "parcel ./src/index.html",
+      "build": "parcel build ./src/index.html --public-url /Square-Parameters",
+      "deploy": "gh-pages -d dist",
+      "predeploy": "npm run build"
    },
    "keywords": [],
    "author": "",
@@ -13,5 +17,8 @@
       "@parcel/transformer-sass": "^2.5.0",
       "parcel": "^2.5.0",
       "posthtml-include": "^1.7.3"
+   },
+   "dependencies": {
+      "gh-pages": "^3.2.3"
    }
 }
