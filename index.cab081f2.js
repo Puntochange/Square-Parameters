@@ -1,0 +1,2 @@
+"use strict";const title=document.querySelector(".title"),block=document.querySelector(".square"),widthInput=document.querySelector(".width"),heightInput=document.querySelector(".height"),btn=document.querySelector(".button");btn.addEventListener("click",(()=>{""==widthInput.value||isNaN(widthInput.value)||widthInput.value>500||""==heightInput.value||isNaN(heightInput.value)||heightInput.value>500?title.innerText="Enter a number less than 500.":(block.style.width=widthInput.value+"px",block.style.height=heightInput.value+"px")}));
+//# sourceMappingURL=index.cab081f2.js.map
