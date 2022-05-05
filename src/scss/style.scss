@@ -80,6 +80,7 @@ body {
 /* --------------------------------- */
 
 body {
+   overflow: hidden;
    max-width: 1600px;
    display: flex;
    justify-content: center;
@@ -96,16 +97,17 @@ body {
       align-items: center;
       min-width: 600px;
       padding: 20px 15px;
-      row-gap: 20px;
       .title {
          text-align: center;
          font-size: 28px;
          letter-spacing: 0.5px;
          margin-bottom: 20px;
          font-weight: 700;
+         margin-bottom: 35px;
       }
       .width,
       .height {
+         margin-bottom: 15px;
          min-width: 260px;
          padding: 8px;
          font-size: 15px;
@@ -131,6 +133,7 @@ body {
          letter-spacing: 1.2px;
          font-size: 18px;
          transition: 0.1s;
+         margin-bottom: 20px;
          &:active {
             background-color: #282828;
          }
@@ -152,18 +155,20 @@ body {
          margin-top: 30px;
          .title {
             font-size: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 25px;
          }
          .width,
          .height {
             min-width: 220px;
             font-size: 12px;
+            margin-bottom: 12px;
          }
          .button {
             min-width: 220px;
             padding: 8px 0px 8px 0px;
             letter-spacing: 0.5px;
             font-size: 16px;
+            margin-bottom: 15px;
          }
       }
    }
