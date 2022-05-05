@@ -134,7 +134,7 @@ body .content__container .square {
 
 @media (max-width: 575px) {
   body .content__container {
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   body .content__container .title {
