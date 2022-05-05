@@ -72,12 +72,10 @@ body {
 }
 
 body .content__container {
-  min-width: 600px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 120px;
-  padding: 20px 15px;
   display: flex;
 }
 
@@ -90,7 +88,7 @@ body .content__container .title {
 }
 
 body .content__container .width, body .content__container .height {
-  box-shadow: none;
+  appearance: none;
   min-width: 260px;
   letter-spacing: 1.2px;
   border: 1px solid #000;
