@@ -62,12 +62,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  max-width: 1600px;
   height: 100vh;
   color: #000;
   justify-content: center;
   align-items: flex-start;
-  margin: 0 auto;
   font-family: Roboto;
   display: flex;
   overflow: hidden;
@@ -92,6 +90,7 @@ body .content__container .title {
 }
 
 body .content__container .width, body .content__container .height {
+  box-shadow: none;
   min-width: 260px;
   letter-spacing: 1.2px;
   border: 1px solid #000;
